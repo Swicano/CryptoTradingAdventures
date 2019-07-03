@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "Cryptsytradinglatest.py", line 40, in <module>
+    alltransacts = ast.literal_eval(alltransacts);
+  File "C:\Python27\lib\ast.py", line 49, in literal_eval
+    node_or_string = parse(node_or_string, mode='eval')
+  File "C:\Python27\lib\ast.py", line 37, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+KeyboardInterrupt
